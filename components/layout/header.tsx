@@ -90,17 +90,17 @@ const Header = () => {
 
                         {/* Services Dropdown */}
                         <div
-                            className="relative group"
+                            className="relative group pb-4 -mb-4 focus-within:outline-none"
                             onMouseEnter={() => setIsServicesOpen(true)}
                             onMouseLeave={() => setIsServicesOpen(false)}
                         >
-                            <button className="flex items-center gap-1 font-semibold text-[#1e293b] hover:text-primary transition-colors">
+                            <button className="flex items-center gap-1 font-semibold text-[#1e293b] hover:text-primary transition-colors cursor-pointer">
                                 Services <ChevronDown className={cn("w-4 h-4 transition-transform", isServicesOpen && "rotate-180")} />
                             </button>
 
                             {/* Mega Dropdown */}
                             <div className={cn(
-                                "absolute top-full left-[-200px] mt-2 w-[600px] bg-white shadow-xl rounded-lg border border-gray-100 p-6 grid grid-cols-2 gap-4 transition-all duration-300 transform origin-top z-[100]",
+                                "absolute top-full left-[-200px] mt-0 w-[600px] bg-white shadow-xl rounded-lg border border-gray-100 p-6 grid grid-cols-2 gap-4 transition-all duration-300 transform origin-top z-[100] before:content-[''] before:absolute before:bottom-full before:left-0 before:right-0 before:h-4",
                                 isServicesOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"
                             )}>
                                 {servicesData.map((service, index) => (
