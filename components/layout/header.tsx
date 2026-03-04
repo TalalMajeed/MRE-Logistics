@@ -16,21 +16,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const services = [
-    "Nationwide Goods Transportation",
-    "Full Truckload Services",
-    "Less Than Truckload Services",
-    "Industrial and Commercial Cargo Transport",
-    "Container Transportation (20 ft & 40 ft)",
-    "Door-to-Door Delivery Services",
-    "Dedicated Fleet Services",
-    "Bulk Cargo Transportation",
-    "Heavy and Specialized Transport",
-    "Contract Logistics Services",
-    "Warehouse to Distributor Transportation",
-    "Export Transportation Services",
-    "Import Transportation Services"
-];
+import servicesData from "@/public/services/services.json";
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -117,13 +103,13 @@ const Header = () => {
                                 "absolute top-full left-[-200px] mt-2 w-[600px] bg-white shadow-xl rounded-lg border border-gray-100 p-6 grid grid-cols-2 gap-4 transition-all duration-300 transform origin-top z-[100]",
                                 isServicesOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"
                             )}>
-                                {services.map((service, index) => (
+                                {servicesData.map((service, index) => (
                                     <Link
                                         key={index}
-                                        href={`/services/${service.toLowerCase().replace(/ /g, '-')}`}
+                                        href={`/services/${service.slug}`}
                                         className="text-sm text-gray-600 hover:text-primary hover:bg-primary/5 p-2 rounded transition-colors block"
                                     >
-                                        {service}
+                                        {service.name}
                                     </Link>
                                 ))}
                             </div>
@@ -178,14 +164,14 @@ const Header = () => {
                             </button>
                             {isServicesOpen && (
                                 <div className="flex flex-col gap-2 pl-6 bg-gray-50 py-2 rounded">
-                                    {services.map((service, index) => (
+                                    {servicesData.map((service, index) => (
                                         <Link
                                             key={index}
-                                            href={`/services/${service.toLowerCase().replace(/ /g, '-')}`}
+                                            href={`/services/${service.slug}`}
                                             onClick={() => setIsMenuOpen(false)}
                                             className="text-sm text-gray-600 py-1"
                                         >
-                                            {service}
+                                            {service.name}
                                         </Link>
                                     ))}
                                 </div>

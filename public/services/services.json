@@ -1,0 +1,67 @@
+[
+    {
+        "slug": "nationwide-goods-transportation",
+        "name": "Nationwide Goods Transportation",
+        "description": "We provide reliable and efficient transportation services across Pakistan, ensuring timely delivery of goods to all major cities, industrial zones, and remote locations. Our nationwide network allows us to serve businesses of all sizes with consistent and dependable logistics solutions."
+    },
+    {
+        "slug": "full-truckload-services",
+        "name": "Full Truckload Services",
+        "description": "Our Full Truckload service is ideal for businesses that require exclusive use of a vehicle for large shipments. This ensures faster transit times, enhanced security, and direct delivery without intermediate handling."
+    },
+    {
+        "slug": "less-than-truckload-services",
+        "name": "Less Than Truckload Services",
+        "description": "For smaller shipments, we offer cost-effective Less Than Truckload solutions. This allows customers to transport goods without needing to hire an entire vehicle, making it an economical option while maintaining reliability."
+    },
+    {
+        "slug": "industrial-and-commercial-cargo-transport",
+        "name": "Industrial and Commercial Cargo Transport",
+        "description": "We specialize in transporting industrial equipment, machinery, raw materials, and commercial goods. Our team understands the requirements of industrial logistics and ensures safe and secure handling of heavy and valuable cargo."
+    },
+    {
+        "slug": "container-transportation",
+        "name": "Container Transportation (20 ft & 40 ft)",
+        "description": "We provide container transport services for ports, factories, and warehouses, including 20-foot and 40-foot containers. Our services support import/export logistics and domestic container movement across Pakistan."
+    },
+    {
+        "slug": "door-to-door-delivery-services",
+        "name": "Door-to-Door Delivery Services",
+        "description": "Our door-to-door delivery ensures convenient pickup from your location and safe delivery directly to the destination. This service minimizes customer effort and ensures smooth logistics management."
+    },
+    {
+        "slug": "dedicated-fleet-services",
+        "name": "Dedicated Fleet Services",
+        "description": "We offer dedicated transportation solutions for companies that require regular logistics support. This ensures priority service, timely deliveries, and customized transport planning according to your business needs."
+    },
+    {
+        "slug": "bulk-cargo-transportation",
+        "name": "Bulk Cargo Transportation",
+        "description": "We handle bulk cargo including construction materials, FMCG products, and industrial supplies. Our fleet is equipped to manage high-volume shipments efficiently."
+    },
+    {
+        "slug": "heavy-and-specialized-transport",
+        "name": "Heavy and Specialized Transport",
+        "description": "We provide transportation for oversized and heavy cargo, including machinery and industrial equipment, using suitable vehicles and professional handling procedures."
+    },
+    {
+        "slug": "contract-logistics-services",
+        "name": "Contract Logistics Services",
+        "description": "We offer long-term logistics partnerships for manufacturers, distributors, and businesses requiring continuous transportation services. Our contract solutions ensure reliability, cost efficiency, and operational continuity."
+    },
+    {
+        "slug": "warehouse-to-distributor-transportation",
+        "name": "Warehouse to Distributor Transportation",
+        "description": "Our warehouse-to-distributor transport services ensure efficient distribution of goods from storage facilities to wholesalers, retailers, and distribution networks across Pakistan. We help businesses maintain uninterrupted supply chains by providing timely and organized deliveries."
+    },
+    {
+        "slug": "export-transportation-services",
+        "name": "Export Transportation Services",
+        "description": "We offer professional export transportation solutions designed to ensure the safe and timely delivery of goods from factories, warehouses, and production facilities to export terminals and ports. Our services support exporters across various industries and ensure cargo reaches ports efficiently and securely."
+    },
+    {
+        "slug": "import-transportation-services",
+        "name": "Import Transportation Services",
+        "description": "We provide reliable import transportation services from Pakistan’s major ports, including Karachi Port and Port Qasim, to destinations across the country. Our team ensures timely and secure movement of imported goods from port terminals to factories, warehouses, and distribution centers."
+    }
+]
