@@ -34,7 +34,7 @@ export default function AboutPage() {
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div className="flex items-start gap-4">
-                                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-lg shrink-0">
+                                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-none shrink-0">
                                     <Truck className="w-6 h-6 text-primary" />
                                 </div>
                                 <div>
@@ -43,7 +43,7 @@ export default function AboutPage() {
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
-                                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-lg shrink-0">
+                                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-none shrink-0">
                                     <Shield className="w-6 h-6 text-primary" />
                                 </div>
                                 <div>
@@ -52,7 +52,7 @@ export default function AboutPage() {
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
-                                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-lg shrink-0">
+                                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-none shrink-0">
                                     <Globe className="w-6 h-6 text-primary" />
                                 </div>
                                 <div>
@@ -61,7 +61,7 @@ export default function AboutPage() {
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
-                                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-lg shrink-0">
+                                <div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-none shrink-0">
                                     <Clock className="w-6 h-6 text-primary" />
                                 </div>
                                 <div>
@@ -72,13 +72,13 @@ export default function AboutPage() {
                         </div>
                     </div>
 
-                    <div className="relative w-full h-[600px] bg-gray-100 rounded-2xl overflow-hidden flex items-center justify-center shadow-xl">
+                    <div className="relative w-full h-[600px] bg-gray-100 rounded-none overflow-hidden flex items-center justify-center">
                         <div
                             className="absolute inset-0 bg-cover bg-center"
                             style={{ backgroundImage: "url('/contact-background.webp')" }}
                         />
                         <div className="absolute inset-0 bg-black/20" />
-                        <div className="relative z-10 bg-white p-8 rounded-xl shadow-lg max-w-xs text-center transform translate-y-12 translate-x-12 hidden md:block border-b-4 border-primary">
+                        <div className="relative z-10 bg-white p-8 rounded-none max-w-xs text-center transform translate-y-12 translate-x-12 hidden md:block border-b-4 border-primary">
                             <h3 className="text-4xl font-black text-[#111827] mb-2">10+</h3>
                             <p className="text-gray-500 font-bold uppercase tracking-wider text-sm">Years of Experience</p>
                         </div>
@@ -94,19 +94,19 @@ export default function AboutPage() {
                         <h3 className="text-4xl md:text-5xl font-black text-[#111827]">Connecting the world with logistics</h3>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                        <div className="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300">
+                        <div className="bg-white p-10 rounded-none hover:-translate-y-2 transition-transform duration-300 group">
                             <h4 className="text-2xl font-bold text-[#111827] mb-4">Quality Service</h4>
                             <p className="text-gray-500 font-medium leading-relaxed">
                                 We go above and beyond to provide exceptional service that exceeds expectations, focusing on reliability and excellence in everything we do.
                             </p>
                         </div>
-                        <div className="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300">
+                        <div className="bg-white p-10 rounded-none hover:-translate-y-2 transition-transform duration-300 group">
                             <h4 className="text-2xl font-bold text-[#111827] mb-4">Innovation</h4>
                             <p className="text-gray-500 font-medium leading-relaxed">
                                 We embrace the latest technologies to create smarter, faster, and more efficient logistics solutions that drive industry progress.
                             </p>
                         </div>
-                        <div className="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300">
+                        <div className="bg-white p-10 rounded-none hover:-translate-y-2 transition-transform duration-300 group">
                             <h4 className="text-2xl font-bold text-[#111827] mb-4">Sustainability</h4>
                             <p className="text-gray-500 font-medium leading-relaxed">
                                 Committed to reducing our carbon footprint through eco-friendly practices that support a healthier planet and a sustainable future.

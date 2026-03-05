@@ -33,7 +33,6 @@ const Header = () => {
 
     return (
         <header className="w-full flex flex-col items-center">
-            {/* Top Bar */}
             <div className="w-full bg-[#111827] text-white py-2 px-4 concealed md:block">
                 <div className="container mx-auto flex justify-between items-center text-sm">
                     <div className="flex items-center gap-6">
@@ -60,13 +59,11 @@ const Header = () => {
                 </div>
             </div>
 
-            {/* Main Header */}
             <nav className={cn(
                 "w-full bg-white transition-all duration-300 z-50 px-4",
                 isScrolled ? "fixed top-0 shadow-md py-2" : "relative py-4"
             )}>
                 <div className="container mx-auto flex justify-between items-center">
-                    {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
                         <Image
                             src="/logo.webp"
@@ -77,7 +74,6 @@ const Header = () => {
                         />
                     </Link>
 
-                    {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center gap-8">
                         <Link href="/" className="font-semibold text-[#1e293b] hover:text-primary transition-colors relative group">
                             Home
@@ -88,7 +84,6 @@ const Header = () => {
                             <span className="absolute bottom-[-4px] left-1/2 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                         </Link>
 
-                        {/* Services Dropdown */}
                         <div
                             className="relative group pb-4 -mb-4 focus-within:outline-none"
                             onMouseEnter={() => setIsServicesOpen(true)}
@@ -98,16 +93,15 @@ const Header = () => {
                                 Services <ChevronDown className={cn("w-4 h-4 transition-transform", isServicesOpen && "rotate-180")} />
                             </button>
 
-                            {/* Mega Dropdown */}
                             <div className={cn(
-                                "absolute top-full left-[-200px] mt-0 w-[600px] bg-white shadow-xl rounded-lg border border-gray-100 p-6 grid grid-cols-2 gap-4 transition-all duration-300 transform origin-top z-[100] before:content-[''] before:absolute before:bottom-full before:left-0 before:right-0 before:h-4",
+                                "absolute top-full left-[-200px] mt-0 w-[600px] bg-white shadow-xl border border-gray-100 p-6 grid grid-cols-2 gap-4 transition-all duration-300 transform origin-top z-[100] before:content-[''] before:absolute before:bottom-full before:left-0 before:right-0 before:h-4",
                                 isServicesOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"
                             )}>
                                 {servicesData.map((service, index) => (
                                     <Link
                                         key={index}
                                         href={`/services/${service.slug}`}
-                                        className="text-sm text-gray-600 hover:text-primary hover:bg-primary/5 p-2 rounded transition-colors block"
+                                        className="text-sm text-gray-600 hover:text-primary hover:bg-primary/5 p-2 transition-colors block"
                                     >
                                         {service.name}
                                     </Link>
@@ -121,7 +115,6 @@ const Header = () => {
                         </Link>
                     </div>
 
-                    {/* Action Buttons */}
                     <div className="flex items-center gap-4">
                         <div className="hidden lg:flex items-center border-r pr-4 mr-2">
                             <Search className="w-5 h-5 text-gray-500 cursor-pointer hover:text-primary transition-colors" />
@@ -137,7 +130,6 @@ const Header = () => {
                             Get Quote <span className="ml-2">»</span>
                         </Link>
 
-                        {/* Mobile Menu Toggle */}
                         <button
                             className="md:hidden p-2 text-gray-600"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -147,7 +139,6 @@ const Header = () => {
                     </div>
                 </div>
 
-                {/* Mobile Navigation */}
                 <div className={cn(
                     "md:hidden absolute top-full left-0 w-full bg-white border-t transition-all duration-300 overflow-hidden",
                     isMenuOpen ? "max-h-[80vh] border-b pb-4" : "max-h-0"

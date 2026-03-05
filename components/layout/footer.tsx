@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="bg-[#111827] text-white pt-24 pb-8 px-4 relative mt-20">
             {/* CTA Banner */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[70%] w-full max-w-6xl px-4 z-10">
-                <div className="bg-primary p-8 md:p-12 flex flex-col md:flex-row justify-between items-center gap-6 shadow-2xl relative overflow-hidden rounded-sm">
+                <div className="bg-primary p-8 md:p-12 flex flex-col md:flex-row justify-between items-center gap-6 shadow-2xl relative overflow-hidden">
                     {/* Background Pattern */}
                     <div className="absolute right-0 bottom-0 opacity-10 pointer-events-none transform translate-x-1/4 translate-y-1/4">
                         <svg width="300" height="300" viewBox="0 0 24 24" fill="white">
