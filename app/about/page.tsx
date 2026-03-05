@@ -1,5 +1,14 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { Truck, Globe, Shield, Clock } from "lucide-react";
+
+export const metadata: Metadata = {
+    title: "About Us | MRE Logistics Pakistan",
+    description: "Learn more about M Rafique Enterprises (MRE Logistics), our mission and how we've been connecting the world with logistics since over 35 years.",
+    alternates: {
+        canonical: "/about",
+    },
+};
 
 export default function AboutPage() {
     return (

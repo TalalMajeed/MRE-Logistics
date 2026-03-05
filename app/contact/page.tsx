@@ -1,8 +1,17 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { Send, Phone, Mail } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+
+export const metadata: Metadata = {
+    title: "Contact Us | MRE Logistics Pakistan",
+    description: "Get in touch with MRE Logistics for your warehousing and transportation needs. Contact us via phone, email, or visit our office in Lahore.",
+    alternates: {
+        canonical: "/contact",
+    },
+};
 
 export default function ContactPage() {
     return (

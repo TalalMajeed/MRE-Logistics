@@ -1,7 +1,27 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import servicesData from "@/public/services/services.json";
 import { CheckCircle2 } from "lucide-react";
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+    const { id } = await params;
+    const service = servicesData.find((s) => s.slug === id);
+
+    if (!service) {
+        return {
+            title: "Service Not Found",
+        };
+    }
+
+    return {
+        title: `${service.name} | MRE Logistics Pakistan`,
+        description: service.description,
+        alternates: {
+            canonical: `/services/${id}`,
+        },
+    };
+}
 
 export default async function ServicePage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;

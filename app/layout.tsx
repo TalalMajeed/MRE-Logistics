@@ -13,8 +13,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MRE Logistics | Warehousing & Transportation",
-  description: "Leading provider of warehousing and transportation services.",
+  metadataBase: new URL("https://mrelogistics.com.pk"),
+  title: {
+    default: "MRE Logistics | Warehousing & Transportation Pakistan",
+    template: "%s | MRE Logistics"
+  },
+  description: "M Rafique Enterprises (MRE Logistics) is a leading provider of warehousing, transportation, and logistics solutions in Pakistan with over 35 years of experience.",
+  keywords: ["logistics", "warehousing", "transportation", "Pakistan", "supply chain", "cargo transport", "MRE Logistics", "M Rafique Enterprises"],
+  authors: [{ name: "MRE Logistics" }],
+  creator: "MRE Logistics",
+  publisher: "MRE Logistics",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 import Header from "@/components/layout/header";
