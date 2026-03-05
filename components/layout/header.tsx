@@ -38,11 +38,11 @@ const Header = () => {
                     <div className="flex items-center gap-6">
                         <div className="flex items-center gap-2">
                             <MapPin className="w-4 h-4 text-primary" />
-                            <span>32-KM Multan Rd, Shamkay Bhattian, Lahore</span>
+                            <span>Plot No. 43, Subsazar Truck Stand, Lahore</span>
                         </div>
                         <div className="hidden lg:flex items-center gap-2 border-l border-gray-700 pl-6">
                             <Mail className="w-4 h-4 text-primary" />
-                            <span>info@mrelogistics.com.pk</span>
+                            <span>zaheer@mrelogistics.com.pk</span>
                         </div>
                     </div>
                     <div className="flex items-center gap-4">

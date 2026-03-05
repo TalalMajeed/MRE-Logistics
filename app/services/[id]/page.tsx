@@ -77,7 +77,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
                         </div>
 
                         <div className="mt-12 pt-10 border-t border-gray-100 flex flex-wrap items-center gap-4">
-                            <Link href="/contact" className="inline-flex items-center justify-center bg-primary text-white hover:bg-black px-8 py-4 text-sm font-bold tracking-widest rounded-none uppercase transition-all duration-300">
+                            <Link href="/#quote-section" className="inline-flex items-center justify-center bg-primary text-white hover:bg-black px-8 py-4 text-sm font-bold tracking-widest rounded-none uppercase transition-all duration-300">
                                 Get a Quote
                             </Link>
                             <Link href="/services" className="inline-flex items-center justify-center bg-[#111827] text-white hover:bg-primary px-8 py-4 text-sm font-bold tracking-widest rounded-none uppercase transition-all duration-300">

@@ -31,7 +31,7 @@ export default function ContactPage() {
                         </div>
                         <h3 className="text-2xl font-bold mb-4 text-[#111827]">Our Address</h3>
                         <p className="text-gray-500 font-medium leading-relaxed">
-                            32-KM Multan Rd, Shamkay<br />Bhattian, Lahore
+                            Plot No. 43, Subsazar Truck Stand<br />Lahore, Pakistan
                         </p>
                     </div>
                     <div className="flex flex-col items-center">
@@ -40,7 +40,7 @@ export default function ContactPage() {
                         </div>
                         <h3 className="text-2xl font-bold mb-4 text-[#111827]">Phone Number</h3>
                         <p className="text-gray-500 font-medium leading-relaxed">
-                            +92 300 1234567
+                            03268777516
                         </p>
                     </div>
                     <div className="flex flex-col items-center">
@@ -49,7 +49,7 @@ export default function ContactPage() {
                         </div>
                         <h3 className="text-2xl font-bold mb-4 text-[#111827]">Email Address</h3>
                         <p className="text-gray-500 font-medium leading-relaxed">
-                            info@mrelogistics.com.pk
+                            zaheer@mrelogistics.com.pk
                         </p>
                     </div>
                 </div>

@@ -69,15 +69,15 @@ const Footer = () => {
                     <ul className="flex flex-col gap-4 text-gray-400 text-sm">
                         <li className="flex gap-3 items-start">
                             <MapPin className="w-5 h-5 text-primary shrink-0" />
-                            <span>32-KM Multan Rd, Shamkay Bhattian, Lahore</span>
+                            <span>Plot No. 43, Subsazar Truck Stand, Lahore</span>
                         </li>
                         <li className="flex gap-3 items-center">
                             <Phone className="w-5 h-5 text-primary shrink-0" />
-                            <span>+92 300 1234567</span>
+                            <span>03268777516</span>
                         </li>
                         <li className="flex gap-3 items-center">
                             <Mail className="w-5 h-5 text-primary shrink-0" />
-                            <span>info@mrelogistics.com.pk</span>
+                            <span>zaheer@mrelogistics.com.pk</span>
                         </li>
                     </ul>
                 </div>

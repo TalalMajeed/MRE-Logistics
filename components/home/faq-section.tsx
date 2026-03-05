@@ -6,22 +6,22 @@ import {
 } from "@/components/ui/accordion";
 
 export function FaqSection() {
-    const faqs = [
+    const generalFaqs = [
+        {
+            q: "What transportation services do you provide?",
+            a: "We provide comprehensive logistics and transportation services across Pakistan, including full truckload (FTL), less-than-truckload (LTL), industrial cargo transport, container movement, and specialized freight solutions. We also offer warehousing and distribution support."
+        },
+        {
+            q: "Which cities do you operate in?",
+            a: "We operate nationwide, covering all major commercial and industrial hubs including Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Multan, Sialkot, Gujranwala, Peshawar, and Quetta, along with remote and developing industrial zones."
+        },
+        {
+            q: "Do you offer door-to-door delivery services?",
+            a: "Yes, we provide reliable door-to-door delivery services across Pakistan, ensuring your cargo is picked up from your location and delivered safely to the final destination."
+        },
         {
             q: "How can I track my shipment?",
-            a: "We provide state-of-the-art GPS tracking integrated with your shipping invoice number. Simply enter your shipment code in our tracker to find its precise location."
-        },
-        {
-            q: "Do you offer international freight services?",
-            a: "While our core operations are nationwide, we coordinate seamlessly with international shipping lines for both import and export freight routing."
-        },
-        {
-            q: "What types of goods can be transported by your fleet?",
-            a: "We cater to a massive variety of goods including construction materials, consumer products, industrial equipment, temperature-controlled cargo, and oversized machinery."
-        },
-        {
-            q: "How are freight quotes calculated?",
-            a: "Quotes are transparently derived from origin, destination, cargo weight, volume, and service tier (standard vs expedited)."
+            a: "We provide shipment tracking through our customer support team and tracking system. You can track your cargo status using your tracking number or by contacting our customer service."
         }
     ];
 
@@ -37,8 +37,8 @@ export function FaqSection() {
 
                 <div className="bg-[#f3f4f6] p-8 md:p-12">
                     <Accordion type="single" collapsible className="w-full">
-                        {faqs.map((faq, idx) => (
-                            <AccordionItem value={`item-${idx}`} key={idx} className="border-b-gray-300">
+                        {generalFaqs.map((faq, idx) => (
+                            <AccordionItem value={`general-${idx}`} key={`general-${idx}`} className="border-b-gray-300">
                                 <AccordionTrigger className="text-left text-lg font-bold text-[#111827] hover:text-primary transition-colors py-6">
                                     {faq.q}
                                 </AccordionTrigger>

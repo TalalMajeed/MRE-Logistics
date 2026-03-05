@@ -13,7 +13,7 @@ export function HeroSection() {
 
             {/* Content */}
             <div className="relative z-10 text-center text-white px-4 max-w-4xl mt-10">
-                <p className="text-primary text-sm md:text-base font-bold tracking-[0.2em] mb-4 uppercase">
+                <p className="text-white text-sm md:text-base font-bold tracking-[0.2em] mb-4 uppercase">
                     Your Reliable Logistics Partner
                 </p>
                 <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight">
