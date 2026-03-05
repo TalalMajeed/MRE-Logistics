@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export function QuoteSection() {
     return (
-        <section className="bg-white py-24">
+        <section id="quote-section" className="bg-white py-24">
             <div className="container mx-auto px-4 max-w-6xl">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     {/* Left Form */}

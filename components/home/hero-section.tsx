@@ -36,7 +36,7 @@ export function HeroSection() {
                         variant="outline"
                         className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black px-8 h-14 text-sm font-bold tracking-wider rounded-none uppercase transition-colors"
                     >
-                        <Link href="/contact">Get A Quote</Link>
+                        <Link href="/#quote-section">Get A Quote</Link>
                     </Button>
                 </div>
             </div>

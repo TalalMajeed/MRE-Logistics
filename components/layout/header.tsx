@@ -121,7 +121,7 @@ const Header = () => {
                         </div>
 
                         <Link
-                            href="/quote"
+                            href="/#quote-section"
                             className="relative hidden sm:inline-block px-8 py-3 bg-primary text-white font-bold transition-all hover:brightness-110"
                             style={{
                                 clipPath: "polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)",
@@ -170,7 +170,7 @@ const Header = () => {
                         </div>
                         <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="font-semibold px-2 py-1">Contact</Link>
                         <Link
-                            href="/quote"
+                            href="/#quote-section"
                             onClick={() => setIsMenuOpen(false)}
                             className="bg-primary text-white text-center py-3 font-bold rounded mt-2"
                         >

@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
 
                     <Link
-                        href="/quote"
+                        href="/#quote-section"
                         className="relative z-10 bg-[#111827] text-white px-8 py-4 font-black uppercase text-sm tracking-widest hover:bg-black transition-all group flex items-center gap-3"
                     >
                         Request A Quote <span className="group-hover:translate-x-1 transition-transform text-lg">»</span>
