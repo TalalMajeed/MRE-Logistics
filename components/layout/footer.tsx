@@ -90,9 +90,9 @@ const Footer = () => {
                         <input
                             type="email"
                             placeholder="Your Email"
-                            className="bg-gray-800 border-none px-4 py-2 text-sm w-full focus:ring-1 focus:ring-primary outline-none rounded-l text-white"
+                            className="bg-gray-800 border-none px-4 py-2 text-sm w-full focus:ring-1 focus:ring-primary outline-none text-white"
                         />
-                        <button className="bg-primary px-4 py-2 font-bold rounded-r hover:brightness-110 transition-colors">
+                        <button className="bg-primary px-4 py-2 font-bold hover:brightness-110 transition-colors">
                             Go
                         </button>
                     </div>

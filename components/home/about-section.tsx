@@ -15,7 +15,7 @@ export function AboutSection() {
                         />
                         {/* Decorative Box */}
                         <div className="absolute -bottom-8 -right-8 bg-primary p-8 hidden md:block z-10">
-                            <h4 className="text-white text-4xl font-black mb-2">25+</h4>
+                            <h4 className="text-white text-4xl font-black mb-2">35+</h4>
                             <p className="text-white/90 font-bold uppercase tracking-wider text-sm">Years of Experience</p>
                         </div>
                     </div>
@@ -24,18 +24,18 @@ export function AboutSection() {
                     <div>
                         <p className="text-primary text-sm font-bold tracking-[0.2em] mb-3 uppercase">About Us</p>
                         <h2 className="text-4xl md:text-5xl font-black mb-6 text-[#111827] leading-tight">
-                            Safe, Fast & Reliable Logistics Solutions
+                            Your Trusted Partner in Nationwide Logistics
                         </h2>
                         <p className="text-gray-500 font-medium leading-relaxed mb-8">
-                            We pride ourselves on providing the fastest and most secure transport services in the country. Our specialized logistics team ensures highly efficient coordination from start to finish.
+                            With over 35 years of experience, M Rafique Enterprises provides reliable and secure transport solutions across Pakistan. From industrial equipment to commercial goods, we ensure your cargo reaches its destination with professional precision.
                         </p>
 
                         <div className="space-y-4 mb-10">
                             <div className="flex items-start gap-3">
                                 <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
                                 <div>
-                                    <h4 className="text-xl font-bold text-[#111827] mb-1">Global Coverage</h4>
-                                    <p className="text-gray-500 text-sm">Extensive network covering major national and international routes.</p>
+                                    <h4 className="text-xl font-bold text-[#111827] mb-1">National Coverage</h4>
+                                    <p className="text-gray-500 text-sm">Extensive network covering major national routes.</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">

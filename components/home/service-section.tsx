@@ -1,28 +1,32 @@
-import { Truck, Train, Box, Settings } from "lucide-react";
+import { Truck, Globe, Factory, ClipboardCheck } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export function ServiceSection() {
     const services = [
         {
+            icon: Globe,
+            title: "Nationwide Transport",
+            slug: "nationwide-goods-transportation",
+            description: "Reliable and efficient transportation across all major Pakistani cities and industrial zones."
+        },
+        {
             icon: Truck,
-            title: "Road Transport",
-            description: "Nationwide ground shipping solutions with GPS tracking and reliable timelines."
+            title: "Full Truckload (FTL)",
+            slug: "full-truckload-services",
+            description: "Exclusive vehicle usage for heavy cargo with enhanced security and faster transit times."
         },
         {
-            icon: Train,
-            title: "Train Freight",
-            description: "Economical and high-capacity rail transport for bulk deliveries."
+            icon: Factory,
+            title: "Industrial Cargo",
+            slug: "industrial-and-commercial-cargo-transport",
+            description: "Specialized handling and transport for heavy machinery, raw materials, and industrial gear."
         },
         {
-            icon: Box,
-            title: "Warehousing",
-            description: "Secure storage solutions with modern inventory tracking systems."
-        },
-        {
-            icon: Settings,
+            icon: ClipboardCheck,
             title: "Contract Logistics",
-            description: "End-to-end supply chain management tailored to your specific demands."
+            slug: "contract-logistics-services",
+            description: "Dedicated long-term partnerships ensuring cost-efficiency and operational continuity."
         }
     ];
 
@@ -46,7 +50,7 @@ export function ServiceSection() {
                             <p className="text-gray-500 font-medium leading-relaxed mb-6">
                                 {service.description}
                             </p>
-                            <Link href="/services" className="text-[#111827] font-bold text-sm tracking-widest uppercase hover:text-primary transition-colors flex items-center gap-2">
+                            <Link href={`/services/${service.slug}`} className="text-[#111827] font-bold text-sm tracking-widest uppercase hover:text-primary transition-colors flex items-center gap-2">
                                 Read More <span className="text-lg">»</span>
                             </Link>
                         </div>

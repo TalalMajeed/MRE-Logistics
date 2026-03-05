@@ -28,7 +28,7 @@ export function ReviewSection() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     {reviews.map((review, idx) => (
-                        <div key={idx} className="bg-white p-10 md:p-14 relative group">
+                        <div key={idx} className="flex flex-col bg-white p-10 md:p-14 relative group">
                             <div className="flex gap-1 mb-8">
                                 {[...Array(5)].map((_, i) => (
                                     <Star key={i} className="w-5 h-5 text-primary fill-current" />
@@ -37,6 +37,7 @@ export function ReviewSection() {
                             <p className="text-lg md:text-xl text-gray-500 font-medium italic leading-relaxed mb-8">
                                 &quot;{review.text}&quot;
                             </p>
+                            <div className="flex-1"></div>
                             <div className="flex items-center gap-4 border-t border-gray-100 pt-8">
                                 <div className="w-14 h-14 bg-gray-200 rounded-full bg-cover"
                                     style={{ backgroundImage: "url('/contact-background.webp')" }}

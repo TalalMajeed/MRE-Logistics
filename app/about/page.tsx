@@ -25,11 +25,11 @@ export default function AboutPage() {
                     <div>
                         <h2 className="text-sm font-bold text-primary uppercase tracking-widest mb-3">Who We Are</h2>
                         <h3 className="text-4xl md:text-5xl font-black mb-6 text-[#111827] leading-tight">We Provide The Best Logistics Solutions</h3>
-                        <p className="text-gray-500 font-medium leading-relaxed mb-6 text-lg">
-                            MRE Logistics is a premier logistics and supply chain service provider based in Lahore, Pakistan. We are committed to delivering safe, reliable, and efficient transportation solutions that empower businesses to scale their operations with ease.
+                        <p className="text-gray-500 font-medium leading-relaxed mb-6 text-base">
+                            With over 35 years of operational excellence, M Rafique Enterprises is a premier logistics provider in Pakistan. We deliver secure, efficient transport solutions for all cargo types—ranging from industrial equipment to commercial goods—across major hubs and remote regions alike.
                         </p>
-                        <p className="text-gray-500 font-medium leading-relaxed mb-8 text-lg">
-                            With years of industry expertise and a dedicated team, we handle everything from local distribution to complex supply chain management, ensuring your cargo reaches its destination exactly when you need it.
+                        <p className="text-gray-500 font-medium leading-relaxed mb-8 text-base">
+                            Built on trust and deep industry expertise, our dedicated team and capable fleet ensure seamless nationwide connectivity. We remain committed to upholding our legacy of excellence by providing innovative logistics solutions that meet modern business needs while prioritizing safety, integrity, and quality.
                         </p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -79,7 +79,7 @@ export default function AboutPage() {
                         />
                         <div className="absolute inset-0 bg-black/20" />
                         <div className="relative z-10 bg-white p-8 rounded-none max-w-xs text-center transform translate-y-12 translate-x-12 hidden md:block border-b-4 border-primary">
-                            <h3 className="text-4xl font-black text-[#111827] mb-2">10+</h3>
+                            <h3 className="text-4xl font-black text-[#111827] mb-2">35+</h3>
                             <p className="text-gray-500 font-bold uppercase tracking-wider text-sm">Years of Experience</p>
                         </div>
                     </div>
