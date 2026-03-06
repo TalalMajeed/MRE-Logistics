@@ -76,6 +76,10 @@ const Footer = () => {
                             <span>03268777516</span>
                         </li>
                         <li className="flex gap-3 items-center">
+                            <Phone className="w-5 h-5 text-primary shrink-0" />
+                            <span>03018777516</span>
+                        </li>
+                        <li className="flex gap-3 items-center">
                             <Mail className="w-5 h-5 text-primary shrink-0" />
                             <span>zaheer@mrelogistics.com.pk</span>
                         </li>
